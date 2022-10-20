@@ -31,7 +31,7 @@
 .header__title {
   align-self: center;
   margin: 0 0 0 64px;
-  width: 730px;
+  max-width: 730px;
   z-index: 2;
   line-height: 96px;
   font-size: 102px;
@@ -179,7 +179,7 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,6 +291,8 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+  margin: 0;
+  padding: 18px 0;
 
 }
 
